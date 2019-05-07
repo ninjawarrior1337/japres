@@ -1,0 +1,33 @@
+{
+  "name": "japresentation-nuxt-reveal",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "ninjawarrior1337",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "animate.css": "^3.7.0",
+    "cross-env": "^5.2.0",
+    "kuroshiro": "^1.1.2",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "nuxt": "^2.4.0",
+    "reveal.js": "^3.8.0",
+    "vue-async-computed": "^3.6.1",
+    "vue-match-heights": "^0.1.1",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
