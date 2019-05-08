@@ -4,9 +4,19 @@
             <div>
                 {{phrase.phrase}}
                 <br>
-                <p>{{kuroshiro.convert(phrase.phrase)}}</p>
+                <p>
+                    <!-- {{kuroshiro.convert(phrase.phrase)}} -->
+                    <Promised :promise="kuroshiro.convert(phrase.phrase)">
+                        <template v-slot:pending>
+                            <p>Loading...</p>
+                        </template>
+                        <template v-slot="data">
+                            <p>{{data}}</p>
+                        </template>
+                    </Promised>
+                </p>
                 <br>
-                {{phrase.meaning}}
+                    {{phrase.meaning}}
                 <br>
             </div>
         </section>
@@ -17,12 +27,19 @@
 import Kuroshiro from 'kuroshiro'
 import KuromojiAnalyzer from "kuroshiro-analyzer-kuromoji";
 
+import { Promised } from 'vue-promised'
+
 const kuroshiro = new Kuroshiro();
+
+window.kuroshiro = kuroshiro
 
 export default {
     async mounted()
     {
         await kuroshiro.init(new KuromojiAnalyzer({dictPath: "/ja-dict"}))
+    },
+    components: {
+        Promised
     },
     data()
     {
@@ -34,7 +51,19 @@ export default {
                     phraseRomaji: "",
                     meaning: "Thank You",
                     variations: ["ありがとうございます。", "ありがとうございました。"]
-                }
+                },
+                {
+                    phrase: "ありがとう",
+                    phraseRomaji: "",
+                    meaning: "Thank You",
+                    variations: ["ありがとうございます。", "ありがとうございました。"]
+                },
+                {
+                    phrase: "ありがとう",
+                    phraseRomaji: "",
+                    meaning: "Thank You",
+                    variations: ["ありがとうございます。", "ありがとうございました。"]
+                },
             ]
         }
     }
