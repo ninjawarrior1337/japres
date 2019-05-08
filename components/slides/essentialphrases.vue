@@ -6,12 +6,15 @@
                 <br>
                 <p>
                     <!-- {{kuroshiro.convert(phrase.phrase)}} -->
-                    <Promised :promise="kuroshiro.convert(phrase.phrase)">
+                    <Promised :promise="kuroshiro.convert(phrase.phrase, {to: 'romaji'})">
                         <template v-slot:pending>
                             <p>Loading...</p>
                         </template>
                         <template v-slot="data">
                             <p>{{data}}</p>
+                        </template>
+                        <template v-slot:rejected>
+                            Rejected
                         </template>
                     </Promised>
                 </p>
@@ -53,7 +56,7 @@ export default {
                     variations: ["ありがとうございます。", "ありがとうございました。"]
                 },
                 {
-                    phrase: "ありがとう",
+                    phrase: "{{noun}}を下さい",
                     phraseRomaji: "",
                     meaning: "Thank You",
                     variations: ["ありがとうございます。", "ありがとうございました。"]
