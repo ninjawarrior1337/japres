@@ -1,0 +1,17 @@
+[
+    {
+        "phrase": "ありがとう",
+        "meaning": "Thank You",
+        "variations": ["ありがとうございます。", "ありがとうございました。"]
+    },
+    {
+        "phrase": "{{noun}}を下さい",
+        "meaning": "Thank You",
+        "variations": ["ありがとうございます。", "ありがとうございました。"]
+    },
+    {
+        "phrase": "おはよう",
+        "meaning": "Thank You",
+        "variations": ["ありがとうございます。", "ありがとうございました。"]
+    }
+]

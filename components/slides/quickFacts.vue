@@ -5,15 +5,15 @@
             v-card(light class="fragment")
                 v-layout(align-center justify-center column)
                     v-card-title(class="justify-center") Katakana
-                    img(src="@/assets/katakana.png")
+                    img(src="@/assets/photos/katakana.png")
             v-card(light class="fragment")
                 v-layout(align-center justify-center column)
                     v-card-title(class="justify-center") Hiragana
-                    img(src="@/assets/hiragana.png")
+                    img(src="@/assets/photos/hiragana.png")
             v-card(light class="fragment")
                 v-layout(align-center justify-center column)
                     v-card-title(class="justify-center") Kanji
-                    img(src="@/assets/kanji.jpg")
+                    img(src="@/assets/photos/kanji.jpg")
 </template>
 
 <script>

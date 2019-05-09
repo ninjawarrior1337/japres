@@ -1,17 +1,19 @@
 <template>
     <section>
+        <section>
+            Common Phrases
+        </section>
         <section v-for="(phrase, index) in phrases" :key="index">
             <div>
                 {{phrase.phrase}}
                 <br>
                 <p>
-                    <!-- {{kuroshiro.convert(phrase.phrase)}} -->
-                    <Promised :promise="kuroshiro.convert(phrase.phrase, {to: 'romaji'})">
+                    <Promised :promise="kuroshiro.convert(phrase.phrase, {to: 'romaji', mode: 'spaced'})">
                         <template v-slot:pending>
                             <p>Loading...</p>
                         </template>
                         <template v-slot="data">
-                            <p>{{data}}</p>
+                            <span v-html="data"></span>
                         </template>
                         <template v-slot:rejected>
                             Rejected
@@ -27,6 +29,8 @@
 </template>
 
 <script async>
+import phrases from "@/assets/data/phrases.json"
+
 import Kuroshiro from 'kuroshiro'
 import KuromojiAnalyzer from "kuroshiro-analyzer-kuromoji";
 
@@ -48,26 +52,7 @@ export default {
     {
         return {
             kuroshiro: kuroshiro,
-            phrases: [
-                {
-                    phrase: "ありがとう",
-                    phraseRomaji: "",
-                    meaning: "Thank You",
-                    variations: ["ありがとうございます。", "ありがとうございました。"]
-                },
-                {
-                    phrase: "{{noun}}を下さい",
-                    phraseRomaji: "",
-                    meaning: "Thank You",
-                    variations: ["ありがとうございます。", "ありがとうございました。"]
-                },
-                {
-                    phrase: "ありがとう",
-                    phraseRomaji: "",
-                    meaning: "Thank You",
-                    variations: ["ありがとうございます。", "ありがとうございました。"]
-                },
-            ]
+            phrases: phrases
         }
     }
 }
