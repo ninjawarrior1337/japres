@@ -10,6 +10,7 @@
         <kanji></kanji>
       </section>
       <essentialphrases></essentialphrases>
+      <grammar></grammar>
     </div>
   </div>
 </template>
@@ -25,6 +26,8 @@ import {katakana, hiragana, kanji} from '../components/slides/writingSystems'
 
 import essentialphrases from '../components/slides/essentialphrases.vue'
 
+import grammar from '../components/slides/grammar.vue'
+
 export default {
   mounted()
   {
@@ -37,7 +40,8 @@ export default {
     hiragana,
     katakana,
     kanji,
-    essentialphrases
+    essentialphrases,
+    grammar
   }
 }
 </script>
