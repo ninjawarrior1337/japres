@@ -10,25 +10,25 @@
                     <span class="partofspeech">
                         <!-- <span>I</span> -->
                         <span class="word">私</span>
-                        <span class="fragment grow">I</span>
+                        <span class="fragment">I</span>
                     </span>
                     <span class="partofspeech">
                         <span class="word">は</span>
-                        <span class="fragment grow">T.M.</span>
+                        <span class="fragment">T.M.</span>
                     </span>
                     <span class="partofspeech">
                         <!-- <span>pizza</span> -->
                         <span class="word">ピザ</span>
-                        <span class="fragment grow">Pizza</span>
+                        <span class="fragment">Pizza</span>
                     </span>
                     <span class="partofspeech">
                         <span class="word">を</span>
-                        <span class="fragment grow">D.O.M</span>
+                        <span class="fragment">D.O.M</span>
                     </span>
                     <span class="partofspeech">
                         <!-- <span>eat</span> -->
                         <span class="word">食べる</span>
-                        <span class="fragment grow">Eat</span>
+                        <span class="fragment">Eat</span>
                     </span>
                 </h2>
             </div>
@@ -56,5 +56,5 @@ export default {
     text-decoration: overline
 }
 .current-fragment
-    color blue
+    // color blue
 </style>
