@@ -1,7 +1,7 @@
 <template lang="pug">
     section
         h3(class="mt-3") The Writing Systems
-        v-layout(align-center justify-center fill-height row wrap v-match-heights="{el: ['.v-card']}")
+        v-layout(align-center justify-center fill-height row wrap v-match-heights="{el: ['.v-card'], disabled: [767]}")
             v-card(light class="fragment")
                 v-layout(align-center justify-center column)
                     v-card-title(class="justify-center") Katakana
@@ -37,6 +37,7 @@ export default {
 {
     width: 300px;
     margin 10px;
+    // height: 10px
 }
 h3
 {

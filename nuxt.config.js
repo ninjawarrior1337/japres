@@ -11,7 +11,7 @@ export default {
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       { hid: 'description', name: 'description', content: pkg.description },
       {name: "mobile-web-app-capable", content: "yes"}
     ],
@@ -78,6 +78,7 @@ export default {
     }
   },
   server: {
-    port: 8080
+    port: 8080,
+    host: "0.0.0.0"
   }
 }

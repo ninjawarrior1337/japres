@@ -8,7 +8,7 @@
             h5
                 |Created With 
                 span
-                    img(height=50 src='https://cultofthepartyparrot.com/flags/hd/japanparrot.gif')
+                    img(height=50 src='https://ppaas.herokuapp.com/partyparrot?overlay=https://cdn.discordapp.com/attachments/407230022743621644/578454411316035585/knadle.png&overlayWidth=13&overlayHeight=20&overlayOffsetX=0&overlayOffsetY=-8')
                 | and
                 span
                     img(height=40 src="https://vuejs.org/images/logo.png")

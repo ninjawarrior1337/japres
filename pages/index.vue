@@ -47,6 +47,7 @@ export default {
 </script>
 
 <style>
+  @import url('reveal.js/css/reset.css');
   @import url('reveal.js/css/reveal.css');
   @import url('reveal.js/css/theme/black.css');
   .reveal section img
