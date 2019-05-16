@@ -20,6 +20,10 @@
         "variations": ["こんばんは", "こんばんわ"]
     },
     {
+        "phrase": "すみません！",
+        "meaning": "Excuse Me!"
+    },
+    {
         "phrase": "{{noun}}を下さい",
         "meaning": "Can I Please Have {{noun}}"
     },

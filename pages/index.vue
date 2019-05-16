@@ -31,7 +31,7 @@ import grammar from '../components/slides/grammar.vue'
 export default {
   mounted()
   {
-    Reveal.initialize()
+    Reveal.initialize();
   },
   components: {
     intro,

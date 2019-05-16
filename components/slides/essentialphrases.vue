@@ -23,6 +23,12 @@
                 <br>
                     {{phrase.meaning}}
                 <br>
+                <br>
+                    <p>
+                        <ul>
+                            <li v-for="variation in phrase.variations">{{variation}}</li>
+                        </ul>
+                    </p>
             </div>
         </section>
     </section>

@@ -1,7 +1,7 @@
 <template lang="pug">
     section
         v-layout(align-center justify-center column fill-height)
-            h3 Japanese Language In 10 minutes
+            h3 Basic Japanese In ≈10 minutes
             ruby 日本語
                 rt にほんご
             br
