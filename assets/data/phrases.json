@@ -1,5 +1,10 @@
 [
     {
+        "phrase": "日本語分りません",
+        "meaning": "I can't speak/understand Japanese",
+        "variations": ["日本語話せない", "日本語しゃべりませ"]
+    },
+    {
         "phrase": "ありがとう",
         "meaning": "Thank You",
         "variations": ["ありがとうございます。", "ありがとうございました。"]

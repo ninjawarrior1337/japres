@@ -58,7 +58,7 @@ export default {
     {
         return {
             kuroshiro: kuroshiro,
-            phrases: phrases // TODO Add I can't speak japanese. (Thx Aidan)
+            phrases: phrases
         }
     }
 }
