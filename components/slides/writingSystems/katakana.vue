@@ -3,7 +3,7 @@
         <ruby>
             <h3>片仮名</h3>
             <rt>
-                カタカナ　
+                Katakana
             </rt>
         </ruby>
         <ul>

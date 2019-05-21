@@ -20,6 +20,10 @@
         "variations": ["今日は", "こんにちわ"]
     },
     {
+        "phrase": "さよなら",
+        "meaning": "Goodbye / So long"
+    },
+    {
         "phrase": "今晩は",
         "meaning": "Good evening",
         "variations": ["こんばんは", "こんばんわ"]

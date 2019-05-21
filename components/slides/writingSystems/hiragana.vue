@@ -3,7 +3,7 @@
         <ruby>
             <h3>平仮名</h3>
             <rt>
-                ひらがな
+                Hiragana
             </rt>
         </ruby>
         <ul>
