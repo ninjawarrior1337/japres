@@ -11,6 +11,7 @@
       </section>
       <essentialphrases></essentialphrases>
       <grammar></grammar>
+      <quizlet-slide></quizlet-slide>
     </div>
   </div>
 </template>
@@ -27,6 +28,7 @@ import {katakana, hiragana, kanji} from '../components/slides/writingSystems'
 import essentialphrases from '../components/slides/essentialphrases.vue'
 
 import grammar from '../components/slides/grammar.vue'
+import quizletSlide from '../components/slides/quizlet.vue';
 
 export default {
   mounted()
@@ -36,12 +38,14 @@ export default {
   components: {
     intro,
     whyLearn,
+    // TODO add something that you need (i forgot at time of writing)
     quickFacts,
     hiragana,
     katakana,
     kanji,
     essentialphrases,
-    grammar
+    grammar,
+    quizletSlide
   }
 }
 </script>

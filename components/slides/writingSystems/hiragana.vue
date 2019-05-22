@@ -7,9 +7,9 @@
             </rt>
         </ruby>
         <ul>
-            <li class="fragment">Looks A Bit More Rounded Compared to Katakana.</li>
-            <li class="fragment">Is used in writing to convey native words.</li>
-            <li class="fragment">Used to mark what part of the sentence the word next to it is.</li>
+            <li class="fragment">Looks a bit more rounded compared to katakana.</li>
+            <li class="fragment">Used in writing to convey native words.</li>
+            <li class="fragment">Marks what part of the sentence the word/phrase before it is.</li>
             <li class="fragment">Each charachter coresponds to one sound</li>
         </ul>
     </section>
