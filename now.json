@@ -1,15 +1,10 @@
 {
     "version": 2,
+    "name": "japres",
     "alias": "ja.treelar.xyz",
     "builds": [
       {
-        "src": "nuxt.config.js",
-        "use": "@nuxtjs/now-builder",
-        "config": {"maxLambdaSize": "60mb"}
-      }
-    ],
-    "routes": [
-      { "src": "/_nuxt/.+", "headers": { "cache-control": "s-maxage=31536000" } },
-      { "src": "/(.*)", "dest": "/" }
+        "src": "package.json",
+        "use": "@now/static-build"      }
     ]
 }
