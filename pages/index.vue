@@ -38,7 +38,7 @@ export default {
   components: {
     intro,
     whyLearn,
-    // TODO add something that you need (i forgot at time of writing)
+    // TODO add language metadata (statistics / terms)
     quickFacts,
     hiragana,
     katakana,
