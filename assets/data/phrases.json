@@ -5,6 +5,10 @@
         "variations": ["日本語話せない", "日本語しゃべりませ"]
     },
     {
+        "phrase": "よろしくお願いします。",
+        "meaning": "Pleasure to meet you / Please treat me well"
+    },
+    {
         "phrase": "こんにちは",
         "meaning": "Good Afternoon / Hello / Good Day",
         "variations": ["今日は", "こんにちわ"]
