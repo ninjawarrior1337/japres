@@ -5,16 +5,6 @@
         "variations": ["日本語話せない", "日本語しゃべりませ"]
     },
     {
-        "phrase": "ありがとう",
-        "meaning": "Thank You",
-        "variations": ["ありがとうございます。", "ありがとうございました。"]
-    },
-    {
-        "phrase": "おはよう",
-        "meaning": "Good morning",
-        "variations": ["おはよございます"]
-    },
-    {
         "phrase": "こんにちは",
         "meaning": "Good Afternoon / Hello / Good Day",
         "variations": ["今日は", "こんにちわ"]
@@ -37,12 +27,13 @@
         "meaning": "Can I Please Have {{noun}}"
     },
     {
-        "phrase": "いただきます",
-        "meaning": "Lets eat: (literally): I humbly recive this"
+        "phrase": "ありがとう",
+        "meaning": "Thank You",
+        "variations": ["ありがとうございます。", "ありがとうございました。"]
     },
     {
-        "phrase": "ご馳走さまでした",
-        "meaning": "That was a delicious meal"
+        "phrase": "いただきます",
+        "meaning": "Lets eat: (literally) / I humbly recive"
     },
     {
         "phrase": "{{place}}はどこですか？",

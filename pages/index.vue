@@ -2,6 +2,7 @@
   <div class="reveal">
     <div class="slides">
       <intro></intro>
+      <history></history>
       <why-learn></why-learn>
       <quick-facts></quick-facts>
       <section>
@@ -21,6 +22,7 @@ import Reveal from 'reveal.js/js/reveal.js'
 
 import intro from '../components/slides/intro.vue'
 import whyLearn from '../components/slides/whyLearn.vue'
+import history from '../components/slides/history.vue'
 import quickFacts from '../components/slides/quickFacts.vue'
 
 import {katakana, hiragana, kanji} from '../components/slides/writingSystems'
@@ -38,7 +40,8 @@ export default {
   components: {
     intro,
     whyLearn,
-    // TODO add language metadata (statistics / terms)
+    history,
+    // TODO add language metadata (statistics / terms  / history)
     quickFacts,
     hiragana,
     katakana,
