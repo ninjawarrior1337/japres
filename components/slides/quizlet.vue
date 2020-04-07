@@ -1,7 +1,7 @@
 <template>
     <section>
         <h1>
-            <a href="http://treelar.xyz/japrezquiz" target="_blank">
+            <a href="http://treelar.wtf/japrezquiz" target="_blank">
                 Quizlet Live!
             </a>
         </h1>

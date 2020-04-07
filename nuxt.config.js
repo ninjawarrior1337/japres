@@ -43,7 +43,8 @@ export default {
   plugins: [
     '@/plugins/vuetify',
     '@/plugins/match-heights',
-    '@/plugins/async-computed'
+    '@/plugins/async-computed',
+    '@/plugins/kuroshiro'
   ],
 
   /*

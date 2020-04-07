@@ -12,7 +12,7 @@
                 | and
                 span
                     img(height=40 src="https://vuejs.org/images/logo.png")
-                | By Tyler Rothleder
+                | By Treelar
 </template>
 
 <script>

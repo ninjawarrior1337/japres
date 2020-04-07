@@ -1,10 +1,10 @@
 {
     "version": 2,
     "name": "japres",
-    "alias": "ja.treelar.xyz",
     "builds": [
       {
         "src": "package.json",
-        "use": "@now/static-build"      }
+        "use": "@now/static-build"      
+      }
     ]
 }
